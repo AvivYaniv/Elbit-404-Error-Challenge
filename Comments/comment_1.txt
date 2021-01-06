@@ -1,0 +1,7 @@
+<<<This program is developed with ElbitLang - a specific programming language developed by ElbitSystems. 
+Opcodes: 
+0x3F byte - gotox byte, 
+0x40 byte - gotoy byte, 
+0x2400 - print ' ',
+0x2401 - print ','
+>>>
