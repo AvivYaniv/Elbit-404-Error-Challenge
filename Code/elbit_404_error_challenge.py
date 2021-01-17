@@ -114,8 +114,6 @@ class ElbitFileReader:
                             # If GOTO opcode
                             if      opcode in self.GOTO_OPCODES:
                                 # Detect opcode axis and location
-                                if opcode not in self.GOTO_OPCODES:
-                                    raise Exception(f'Unknown GOTO axis {opcode}')
                                 goto_opcode_name    = self.GOTO_OPCODES[opcode]
                                 goto_location       = int.from_bytes(directive, byteorder=sys.byteorder)
                                 # If        x-axis set x location
